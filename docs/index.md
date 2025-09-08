@@ -7,6 +7,8 @@ keywords:
   - banned books
   - hidden knowledge
   - religious text
+  - Hidden Knowledge
+  - Dead Sea Scrolls
 ---
 
 # **Unveiling The Forgotten**
