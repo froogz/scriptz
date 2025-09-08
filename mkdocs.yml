@@ -10,7 +10,6 @@ copyright: "Copyright © 2025 Midnight Codex Studio. All rights reserved."
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     scheme: midnightcodex
     primary: "white"
@@ -74,8 +73,6 @@ extra_css:
 
 extra_javascript:
   - javascripts/feedback.js
-
-extra_javascript:
   - https://payhip.com/payhip.js
 
 plugins:
@@ -88,7 +85,6 @@ plugins:
       fallback_to_build_date: true
       locale: en
   - social:
-      # generation is on by default; keeping it explicit is fine
       cards: true
       cards_layout_options:
         font_family: Poppins
@@ -97,7 +93,7 @@ plugins:
         logo: fontawesome/solid/book
         title: "Reading the forbidden isn’t about curiosity alone."
         description: "Unearth the secret knowledge they don't want you to find."
-  - git-authors  
+  - git-authors
 
 markdown_extensions:
   - admonition
@@ -112,10 +108,7 @@ markdown_extensions:
         custom_icons:
           - fontawesome
 
-# --- NAVIGATION MENU ---
 nav:
   - We bring back what was forgotten: index.md
   - The Book Of Enoch: thebookofenoch.md
   - Store: https://payhip.com/b/GlBx7
-
-
