@@ -1,1 +1,118 @@
-site_name: My Docs
+site_name: Midnight Manuscripts
+site_url: https://midnightcodexstudio.github.io/midnightmanuscripts/
+site_author: D.K Asher
+site_description: "Unearth the secret knowledge they don't want you to find."
+
+repo_name: midnightcodexstudio/midnightmanuscripts
+repo_url: https://github.com/midnightcodexstudio/midnightmanuscripts
+
+copyright: "Copyright © 2025 Midnight Codex Studio. All rights reserved."
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: midnightcodex
+    primary: "white"
+    accent: "white"
+  icon:
+    logo: fontawesome/solid/book
+  favicon: assets/favicon.png
+  font:
+    text: Poppins
+    code: Roboto
+  features:
+    - content.git_authors
+
+extra:
+  # removes the "Made with Material for MkDocs" footer notice
+  generator: false
+  # adds your Google Search Console verification tag
+  meta:
+    - name: google-site-verification
+      content: q_BKRKKu1Wyyan_YGpDPx9_Hh52d48S2tnoaCy6MFXs
+  # header social icons
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/midnightcodexstudio
+    - icon: fontawesome/brands/github
+      link: https://github.com/midnightcodexstudio
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/your-profile-name
+    - icon: fontawesome/brands/paypal
+      link: https://paypal.me/your-paypal-id
+    - icon: fontawesome/brands/google-play
+      link: https://play.google.com/store/books/details/your-book
+    - icon: fontawesome/brands/amazon
+      link: https://www.amazon.com/your-books-page
+    - icon: fontawesome/solid/bag-shopping
+      link: https://payhip.com/midnightmanuscripts
+  consent: # Start of Cookies & Reaction Emoji
+    title: Cookie consent
+    description: >-
+      We use cookies to understand how you use the site and to improve it. With your consent, you're helping us make Midnight Manuscripts better.
+  analytics:
+    provider: google
+    property: G-8C091YBKCV
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Tell us what’s missing via
+            <a href="https://github.com/midnightcodexstudio/midnightmanuscripts/issues/new?title=[Feedback]+{title}+–+{url}" target="_blank" rel="noopener">GitHub issues</a>.
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/feedback.js
+
+extra_javascript:
+  - https://payhip.com/payhip.js
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_css: true
+      minify_js: true
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      locale: en
+  - social:
+      # generation is on by default; keeping it explicit is fine
+      cards: true
+      cards_layout_options:
+        font_family: Poppins
+        background_color: "#ffffff"
+        color: "#000000"
+        logo: fontawesome/solid/book
+        title: "Reading the forbidden isn’t about curiosity alone."
+        description: "Unearth the secret knowledge they don't want you to find."
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - fontawesome
+
+# --- NAVIGATION MENU ---
+nav:
+  - We bring back what was forgotten: index.md
+  - The Book Of Enoch: thebookofenoch.md
+  - Store: https://payhip.com/b/GlBx7

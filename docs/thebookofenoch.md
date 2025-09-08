@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # The Book of Enoch: An Apocalyptic Vision
 
 For over a thousand years, this book was hidden. Forbidden. Whispered about, but never read. Now it returns — not as dry history, but as a living vision.
@@ -5,7 +10,7 @@ For over a thousand years, this book was hidden. Forbidden. Whispered about, but
   <section class="book-hero" aria-label="The Book of Enoch: An Apocalyptic Vision">
   <figure class="thumb">
     <!-- go UP one level from /thebookofenoch/ to /  -->
-    <img src="../assets/Cover.png" alt="The Book of Enoch cover" loading="lazy">
+    <img src="../assets/Cover.webp" alt="The Book of Enoch cover" loading="lazy">
   </figure>
 
   <h1 class="book-title">The Book of Enoch: An Apocalyptic Vision</h1>
@@ -52,10 +57,15 @@ This isn’t a neat tale. It’s unsettling. It’s alive. And once you open its
 
     — David R., 41
 
-<section class="book-hero" aria-label="The Book of Enoch: An Apocalyptic Vision">
+  <section class="book-hero" aria-label="The Book of Enoch: An Apocalyptic Vision">
+  <figure class="thumb">
+    <!-- go UP one level from /thebookofenoch/ to /  -->
+    <img src="../assets/M_BOE2.webp" alt="The Book of Enoch cover" loading="lazy">
+  </figure>
 
-<h1 class="book-title">The Book of Enoch: An Apocalyptic Vision</h1>
-  <p class="book-desc">The angels now on earth teach humans various forbidden knowledge and crafts, which lead to warfare, sorcery, and all other sins. </p>
+  <h1 class="book-title">The Book of Enoch: An Apocalyptic Vision</h1>
+  <p class="book-desc">Step into the vision. Uncover what was lost. The end was always written.</p>
+
   <div class="buy-wrap">
     <a href="https://payhip.com/b/GlBx7"
        class="payhip-buy-button"
@@ -72,6 +82,4 @@ This isn’t a neat tale. It’s unsettling. It’s alive. And once you open its
 
     :fontawesome-solid-book: For scholars and historians, the Book of Enoch is a critical piece of evidence for understanding the development of both Judaism and Christianity. It's considered one of the earliest examples of apocalyptic literature and a valuable resource for tracing the evolution of religious thought.
 
-!!! note ""
-
-    You will get a PDF (9MB) file. Other formats will be availabe soon.
+You will get a PDF (5.5MB) optimized file. Other formats will be availabe soon.
