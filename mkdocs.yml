@@ -97,6 +97,7 @@ plugins:
         logo: fontawesome/solid/book
         title: "Reading the forbidden isn’t about curiosity alone."
         description: "Unearth the secret knowledge they don't want you to find."
+  - git-authors  
 
 markdown_extensions:
   - admonition
@@ -116,3 +117,5 @@ nav:
   - We bring back what was forgotten: index.md
   - The Book Of Enoch: thebookofenoch.md
   - Store: https://payhip.com/b/GlBx7
+
+
