@@ -24,6 +24,21 @@ body {
   font-size: 0.95rem !important;
 }
 
+.md-typeset h1 strong,
+.md-typeset h2 strong,
+.md-typeset h3 strong,
+.md-typeset h4 strong,
+.md-typeset h5 strong,
+.md-typeset h6 strong {
+  font-size: 1.0625em !important;
+}
+.md-typeset h1,
+.md-typeset h2 {
+  font-size: 1.5625em;
+  line-height: 1.4;
+  margin: 1.6em 0 0.64em;
+}
+
 /* Header */
 .md-header--shadow {
   box-shadow: none !important;
