@@ -265,7 +265,9 @@ body {
   max-width: 100% !important;
   box-sizing: border-box !important;
 }
-
+.md-typeset {
+  line-height: 1.3 !important;
+}
 /* --- Payhip button: force 16px text and keep sizing sane --- */
 .md-typeset .book-hero .buy-wrap .payhip-buy-button,
 .md-typeset .book-hero .buy-wrap [class*="payhip"] a,
