@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-size: 1.0625em !important;
+
   font-weight: var(--base-text-weight-normal, 400);
   color: #08142b !important;
   background-color: #fff !important;
