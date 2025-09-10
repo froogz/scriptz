@@ -21,10 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: var(--base-text-weight-normal, 400);
-  color: #08142b !important;
-  background-color: #fff !important;
 }
 
 /* Header */
@@ -107,6 +106,7 @@ body {
   -webkit-line-clamp: 2; /* keeps rows tidy */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  line-height: 1; /* compact */
 }
 
 /* Coming-soon placeholder overlays the same wrapper */
@@ -253,7 +253,9 @@ body {
   max-width: 100% !important;
   box-sizing: border-box !important;
 }
-
+.md-typeset {
+  line-height: 1.3 !important;
+}
 /* --- Payhip button: force 16px text and keep sizing sane --- */
 .md-typeset .book-hero .buy-wrap .payhip-buy-button,
 .md-typeset .book-hero .buy-wrap [class*="payhip"] a,
@@ -286,25 +288,5 @@ body {
     min-width: 0 !important;
     white-space: normal !important;
     box-sizing: border-box !important;
-  }
-}
-
-/* Adjusted Font Size */
-/* Phones */
-body {
-  font-size: 1.0625em; /* ~17px */
-}
-
-/* Tablets */
-@media (min-width: 768px) {
-  body {
-    font-size: 1.125em; /* ~18px */
-  }
-}
-
-/* Desktops */
-@media (min-width: 1024px) {
-  body {
-    font-size: 1.25em; /* ~20px */
   }
 }
