@@ -37,7 +37,7 @@ body {
   font-size: 1.5625em;
   line-height: 1.4;
   margin: 1.6em 0 0.64em;
-  color: var(--md-typeset-color);
+  color: var(--md-typeset-color) !important;
 }
 
 /* Header */
