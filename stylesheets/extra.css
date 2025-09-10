@@ -1,6 +1,6 @@
-/* ===========================
-   Midnight Manuscripts – stylesheets/extra.css
-   =========================== */
+html {
+  font-size: 16px !important;
+}
 
 /* Color scheme vars (custom scheme: midnightcodex) */
 [data-md-color-scheme="midnightcodex"] {
@@ -21,9 +21,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-size: 1.0625rem;
+  font-size: 16px !important;
   line-height: 1.5;
-  font-weight: var(--base-text-weight-normal, 400);
+}
+.md-content .md-typeset {
+  font-size: 1rem !important;
+}
+
+/* 3) Match Scribe body copy size exactly */
+.md-content .md-typeset p,
+.md-content {
+  font-size: 1.0625rem !important; /* 17px */
+}
+
+.md-content .md-typeset {
+  font-size: 1rem !important; /* parent = 16px */
 }
 
 /* Header */
