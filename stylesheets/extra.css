@@ -289,6 +289,25 @@ body {
   }
 }
 
-.md-typeset {
-  font-size: 1.0625em !important;
+/* Adjusted Font Size */
+/* Phones */
+main p,
+main li {
+  font-size: 1.0625em; /* ~17px */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  main p,
+  main li {
+    font-size: 1.125em; /* ~18px */
+  }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+  main p,
+  main li {
+    font-size: 1.25em; /* ~20px */
+  }
 }
