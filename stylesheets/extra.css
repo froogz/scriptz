@@ -288,3 +288,7 @@ body {
     box-sizing: border-box !important;
   }
 }
+
+.md-typeset {
+  font-size: 1.0625em !important;
+}
