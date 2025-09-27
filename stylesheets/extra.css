@@ -31,6 +31,10 @@ body {
   line-height: 1.2 !important;
 }
 
+.md-typeset h3 {
+  line-height: 1.2 !important;
+}
+
 /* Header */
 .md-header--shadow {
   box-shadow: none !important;
