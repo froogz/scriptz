@@ -1,5 +1,5 @@
 /* Color scheme vars (custom scheme: midnightcodex) */
-[data-md-color-scheme="froogz"] {
+[data-md-color-scheme="midnightcodex"] {
   --md-primary-fg-color: #fcfcfc;
   --md-primary-fg-color--light: #fcfcfc;
   --md-primary-fg-color--dark: #1b1b1b;
@@ -18,7 +18,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+/*
+.md-content .md-typeset {
+  font-size: 0.8888888889rem !important;
+}*/
 
+.md-typeset h1,
+.md-typeset h2 {
+  font-size: 2em !important;
+  letter-spacing: -0.84px;
+  line-height: 1.2 !important;
+}
+
+.md-typeset h3 {
+  line-height: 1.2 !important;
+  font-weight: 500 !important;
+}
+
+/* Header */
 .md-header--shadow {
   box-shadow: none !important;
 }
@@ -31,20 +48,20 @@ body {
    =========================== */
 
 /* Grid: 1 col mobile, 2 cols ≥768px */
-.books-grid {
+.md-typeset .books-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: clamp(0.75rem, 2vw, 1rem);
   margin-block: clamp(1rem, 2.5vw, 1.25rem);
 }
 @media (min-width: 768px) {
-  .books-grid {
+  .md-typeset .books-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* Card */
-.book-card {
+.md-typeset .book-card {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -53,7 +70,7 @@ body {
 }
 
 /* Media wrapper (modern + fallback) */
-.book-card .thumb {
+.md-typeset .book-card .thumb {
   width: 100%;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -62,19 +79,19 @@ body {
   position: relative;
 }
 @supports not (aspect-ratio: 1 / 1) {
-  .book-card .thumb::before {
+  .md-typeset .book-card .thumb::before {
     content: "";
     display: block;
     padding-top: calc(4 / 3 * 100%); /* 3:4 box = 133.333% */
   }
-  .book-card .thumb > * {
+  .md-typeset .book-card .thumb > * {
     position: absolute;
     inset: 0; /* img or overlays fill the box */
   }
 }
 
 /* Image inside the wrapper */
-.book-card .thumb img {
+.md-typeset .book-card .thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -82,14 +99,14 @@ body {
 }
 
 /* Titles + blurbs */
-.book-title {
+.md-typeset .book-title {
   margin: 0.5rem 0 0;
   font-weight: 700;
   text-align: center;
   font-size: clamp(1rem, 1.2vw, 1.1rem);
   color: var(--md-typeset-color);
 }
-.book-desc {
+.md-typeset .book-desc {
   margin: 0.25rem auto 0;
   text-align: center;
   color: var(--md-default-fg-color--light);
@@ -102,17 +119,17 @@ body {
 }
 
 /* Coming-soon placeholder overlays the same wrapper */
-.book-card.soon {
+.md-typeset .book-card.soon {
   pointer-events: none;
 }
-.book-card.soon .thumb {
+.md-typeset .book-card.soon .thumb {
   background: repeating-linear-gradient(
     135deg,
     #f6f7fb 0 12px,
     #eef0f6 12px 24px
   );
 }
-.book-card.soon .thumb::after {
+.md-typeset .book-card.soon .thumb::after {
   content: "COMING SOON";
   position: absolute;
   inset: 0;
@@ -135,7 +152,7 @@ body {
 }
 
 /* Container */
-.book-hero {
+.md-typeset .book-hero {
   display: grid;
   justify-items: center;
   text-align: center;
@@ -145,7 +162,7 @@ body {
 }
 
 /* Cover (same width as button) */
-.book-hero .thumb {
+.md-typeset .book-hero .thumb {
   width: var(--book-hero-w);
   aspect-ratio: 3 / 4;
   border-radius: 0.6rem;
@@ -154,17 +171,17 @@ body {
   position: relative;
 }
 @supports not (aspect-ratio: 1 / 1) {
-  .book-hero .thumb::before {
+  .md-typeset .book-hero .thumb::before {
     content: "";
     display: block;
     padding-top: 133.333%;
   }
-  .book-hero .thumb > * {
+  .md-typeset .book-hero .thumb > * {
     position: absolute;
     inset: 0;
   }
 }
-.book-hero .thumb img {
+.md-typeset .book-hero .thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -172,27 +189,27 @@ body {
 }
 
 /* Title + blurb */
-.book-hero .book-title {
+.md-typeset .book-hero .book-title {
   margin: 0.6rem 0 0;
   font-weight: 800;
   font-size: clamp(1.15rem, 2.2vw, 1.6rem);
   color: var(--md-typeset-color);
 }
-.book-hero .book-desc {
+.md-typeset .book-hero .book-desc {
   margin: 0.25rem 0 0;
   color: var(--md-default-fg-color--light);
   max-width: 60ch;
 }
 
 /* Buy button wrapper — exact same width as image */
-.book-hero .buy-wrap {
+.md-typeset .book-hero .buy-wrap {
   display: grid; /* makes stretching trivial */
   width: var(--book-hero-w);
   margin-top: 0.6rem;
 }
 
 /* Force any injected Payhip element to the same width */
-.buy-wrap > * {
+.md-typeset .book-hero .buy-wrap > * {
   justify-self: stretch;
   width: 100% !important;
   max-width: 100% !important;
@@ -200,32 +217,38 @@ body {
 }
 
 /* Anchor before Payhip replaces it */
-.book-hero .payhip-buy-button {
+.md-typeset .book-hero .payhip-buy-button {
   display: block;
   text-align: center;
 }
 
 /* Mobile: hero fills content width like an index tile */
 @media (max-width: 767.98px) {
-  .book-hero .thumb,
-  .book-hero .buy-wrap {
+  .md-typeset .book-hero .thumb,
+  .md-typeset .book-hero .buy-wrap {
     width: 100%;
   }
 }
 
+/* Tablet/desktop: slightly bump minimum width if desired */
+@media (min-width: 768px) {
+  .md-typeset {
+    --book-hero-w: clamp(300px, 42vw, 360px);
+  }
+}
 /* --- Fix Payhip button overflow on mobile --- */
 @media (max-width: 767.98px) {
   /* keep wrapper same width as the image and clip any excess */
-  .book-hero .buy-wrap {
+  .md-typeset .book-hero .buy-wrap {
     width: 100%;
     overflow: hidden; /* prevents 1–2px bleed from injected elems */
   }
 
   /* force ALL injected Payhip elements to fit the wrapper */
-  .book-hero .buy-wrap > *,
-  .book-hero .buy-wrap .payhip-buy-button,
-  .book-hero .buy-wrap [class*="payhip"],
-  .book-hero .buy-wrap [id*="payhip"] {
+  .md-typeset .book-hero .buy-wrap > *,
+  .md-typeset .book-hero .buy-wrap .payhip-buy-button,
+  .md-typeset .book-hero .buy-wrap [class*="payhip"],
+  .md-typeset .book-hero .buy-wrap [id*="payhip"] {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -235,37 +258,39 @@ body {
   }
 }
 /* (optional) avoid subpixel overflow from borders/padding on any screen */
-.book-hero .buy-wrap > * {
+.md-typeset .book-hero .buy-wrap > * {
   max-width: 100% !important;
   box-sizing: border-box !important;
 }
-
+.md-typeset {
+  line-height: 1.3 !important;
+}
 /* --- Payhip button: force 16px text and keep sizing sane --- */
-.book-hero .buy-wrap .payhip-buy-button,
-.book-hero .buy-wrap [class*="payhip"] a,
-.book-hero .buy-wrap [class*="payhip"] button {
+.md-typeset .book-hero .buy-wrap .payhip-buy-button,
+.md-typeset .book-hero .buy-wrap [class*="payhip"] a,
+.md-typeset .book-hero .buy-wrap [class*="payhip"] button {
   font-size: 16px !important;
   line-height: 1.25 !important;
 }
 
 /* (optional) add a touch more padding for better tap target */
-.book-hero .buy-wrap .payhip-buy-button,
-.book-hero .buy-wrap [class*="payhip"] a,
-.book-hero .buy-wrap [class*="payhip"] button {
+.md-typeset .book-hero .buy-wrap .payhip-buy-button,
+.md-typeset .book-hero .buy-wrap [class*="payhip"] a,
+.md-typeset .book-hero .buy-wrap [class*="payhip"] button {
   padding: 0.75rem 1rem !important;
   box-sizing: border-box !important;
 }
 
 /* Keep mobile overflow fixes */
 @media (max-width: 767.98px) {
-  .book-hero .buy-wrap {
+  .md-typeset .book-hero .buy-wrap {
     width: 100%;
     overflow: hidden;
   }
-  .book-hero .buy-wrap > *,
-  .book-hero .buy-wrap .payhip-buy-button,
-  .book-hero .buy-wrap [class*="payhip"],
-  .book-hero .buy-wrap [id*="payhip"] {
+  .md-typeset .book-hero .buy-wrap > *,
+  .md-typeset .book-hero .buy-wrap .payhip-buy-button,
+  .md-typeset .book-hero .buy-wrap [class*="payhip"],
+  .md-typeset .book-hero .buy-wrap [id*="payhip"] {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
