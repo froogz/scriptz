@@ -19,10 +19,10 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 1.3333333333rem;
 }
-
+/*
 .md-content .md-typeset {
   font-size: 0.8888888889rem !important;
-}
+}*/
 
 .md-typeset h1,
 .md-typeset h2 {
