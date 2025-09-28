@@ -21,6 +21,11 @@ body {
     BlinkMacSystemFont, "Segoe UI", Arial, sans-serif !important;
 }
 
+.md-typeset {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
 /* AGGRESSIVE FIX FOR BLOTCHY BOLD TEXT */
 .md-typeset,
 .md-typeset strong,
