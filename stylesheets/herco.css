@@ -1,0 +1,232 @@
+/* ===== Google-style hero tailored for MkDocs Material (scheme: froogz) ===== */
+
+:root {
+  --g-maxw: 1120px;
+  --g-radius: 20px;
+  --g-gap: 16px;
+  --g-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+
+  /* Fluid type */
+  --g-kicker: clamp(12px, 1.2vw, 14px);
+  --g-title: clamp(28px, 4.4vw, 50px);
+  --g-sub: clamp(15px, 1.6vw, 20px);
+  --g-btn: clamp(14px, 1.4vw, 16px);
+
+  /* Colors (sync with your froogz palette) */
+  --g-bg: #ffffff;
+  --g-card: #f5f7fb;
+  --g-text: #0f172a;
+  --g-muted: #475569;
+  --g-primary: #1a73e8;
+  --g-primary-ink: #fff;
+  --g-ghost: #e6eefc;
+}
+
+/* Respect your custom color scheme in dark mode (if you add one later) */
+[data-md-color-scheme="slate"] :root {
+  --g-card: #0f172a;
+  --g-bg: #0b1220;
+  --g-text: #e2e8f0;
+  --g-muted: #94a3b8;
+  --g-ghost: #1f2937;
+  --g-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Container pinned to Material's content width */
+.g-hero {
+  margin: 24px auto 40px;
+  max-width: var(--g-maxw);
+  padding: 0 16px;
+}
+.g-hero__canvas {
+  border-radius: var(--g-radius);
+  background: var(--g-card);
+  box-shadow: var(--g-shadow);
+  padding: clamp(12px, 2vw, 20px);
+}
+
+/* Stage: rounded backdrop with floating tiles + device */
+.g-hero__stage {
+  position: relative;
+  overflow: hidden;
+  border-radius: calc(var(--g-radius) + 12px);
+  background: linear-gradient(180deg, #ffffff, #f1f4fa);
+  min-height: clamp(220px, 40vw, 420px);
+}
+
+/* Center device */
+.g-hero__device {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: clamp(160px, 32vw, 380px);
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 8px 18px rgba(3, 7, 18, 0.15));
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Floating tiles */
+.g-hero__tile {
+  position: absolute;
+  width: clamp(140px, 26vw, 320px);
+  height: clamp(90px, 16vw, 190px);
+  border-radius: 22px;
+  box-shadow: var(--g-shadow);
+}
+.g-hero__tile--left {
+  left: clamp(10px, 6vw, 48px);
+  top: clamp(18px, 8vw, 56px);
+  background: radial-gradient(80% 80% at 0% 100%, #1f3bff 0%, #00133a 100%);
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(10px, 1.4vw, 14px);
+}
+.g-hero__eyebrow {
+  font-size: clamp(10px, 1vw, 12px);
+  opacity: 0.8;
+  display: block;
+}
+.g-hero__tile-title {
+  margin: 4px 0 0;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: clamp(14px, 1.6vw, 18px);
+}
+
+.g-hero__tile--right {
+  right: clamp(10px, 5vw, 44px);
+  bottom: clamp(14px, 7vw, 44px);
+  background: #fff;
+  padding: 0;
+  overflow: hidden;
+}
+.g-hero__tile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 22px;
+}
+
+/* Optional date pill */
+.g-hero__pill {
+  position: absolute;
+  right: clamp(6px, 3vw, 24px);
+  top: clamp(10px, 3vw, 24px);
+  background: #e8efff;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  box-shadow: var(--g-shadow);
+}
+.g-hero__pill-day {
+  display: block;
+  font-size: 12px;
+  color: #334155;
+}
+.g-hero__pill-num {
+  display: block;
+  font-weight: 700;
+  line-height: 0.9;
+  font-size: 20px;
+  color: #111827;
+}
+.g-hero__pill-label {
+  background: #1a73e8;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Optional chip */
+.g-hero__chip {
+  position: absolute;
+  right: clamp(8px, 3vw, 24px);
+  bottom: clamp(8px, 3vw, 24px);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  box-shadow: var(--g-shadow);
+  cursor: pointer;
+}
+
+/* Copy block */
+.g-hero__copy {
+  text-align: center;
+  padding: 18px 8px 0;
+}
+.g-hero__kicker {
+  margin: 18px 0 4px;
+  font-size: var(--g-kicker);
+  color: var(--g-muted);
+}
+.g-hero__title {
+  margin: 0 0 6px;
+  font-size: var(--g-title);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--g-text);
+}
+.g-hero__subtitle {
+  margin: 6px auto 16px;
+  font-size: var(--g-sub);
+  color: var(--g-muted);
+  max-width: 64ch;
+}
+.g-hero__actions {
+  display: inline-flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.g-hero__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: var(--g-btn);
+  text-decoration: none;
+  transition: transform 0.08s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.g-hero__btn--primary {
+  background: var(--g-primary);
+  color: var(--g-primary-ink);
+  box-shadow: 0 6px 14px rgba(26, 115, 232, 0.25);
+}
+.g-hero__btn--primary:hover {
+  transform: translateY(-1px);
+}
+.g-hero__btn--ghost {
+  background: var(--g-ghost);
+  color: #0b3a86;
+}
+.g-hero__btn--ghost:hover {
+  transform: translateY(-1px);
+}
+
+/* Wide screens */
+@media (min-width: 1000px) {
+  .g-hero {
+    margin-top: 32px;
+  }
+  .g-hero__copy {
+    padding-top: 22px;
+  }
+}
+
+/* Ensure no horizontal scroll from stage overflow on mobile */
+.g-hero,
+.g-hero * {
+  max-width: 100%;
+}
