@@ -1,9 +1,8 @@
-/* ===== Google-style hero tailored for MkDocs Material (scheme: froogz) ===== */
+/* ===== Simplified Google-style hero (Froogz) ===== */
 
 :root {
   --g-maxw: 1120px;
   --g-radius: 20px;
-  --g-gap: 16px;
   --g-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
 
   /* Fluid type */
@@ -12,27 +11,17 @@
   --g-sub: clamp(15px, 1.6vw, 20px);
   --g-btn: clamp(14px, 1.4vw, 16px);
 
-  /* Colors (sync with your froogz palette) */
+  /* Palette */
   --g-bg: #ffffff;
   --g-card: #f5f7fb;
   --g-text: #0f172a;
   --g-muted: #475569;
   --g-primary: #1a73e8;
   --g-primary-ink: #fff;
-  --g-ghost: #e6eefc;
+  --g-ghost: #757575; /* updated ghost button background */
 }
 
-/* Respect your custom color scheme in dark mode (if you add one later) */
-[data-md-color-scheme="slate"] :root {
-  --g-card: #0f172a;
-  --g-bg: #0b1220;
-  --g-text: #e2e8f0;
-  --g-muted: #94a3b8;
-  --g-ghost: #1f2937;
-  --g-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-}
-
-/* Container pinned to Material's content width */
+/* Container */
 .g-hero {
   margin: 24px auto 40px;
   max-width: var(--g-maxw);
@@ -45,85 +34,32 @@
   padding: clamp(12px, 2vw, 20px);
 }
 
-/* Stage: rounded backdrop with floating tiles + device */
+/* Stage */
 .g-hero__stage {
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, #ffffff, #f1f4fa);
   border-radius: 28px;
   min-height: clamp(382px, 44vw, 520px);
-}
-
-/* Center device */
-.g-hero__device {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  pointer-events: none;
-  user-select: none;
-  z-index: 2;
-  left: 50%;
-  top: 50%;
-  height: clamp(160px, 26vw, 300px);
-  transform: translate(-54%, -50%); /* nudges more left */
-  filter: drop-shadow(0 8px 18px rgba(3, 7, 18, 0.15));
-  pointer-events: none;
-  user-select: none;
-}
-
-/* Floating tiles */
-.g-hero__tile {
-  position: absolute;
-  width: clamp(140px, 26vw, 320px);
-  height: clamp(90px, 16vw, 190px);
-  border-radius: 22px;
-  box-shadow: var(--g-shadow);
-}
-.g-hero__tile--left {
-  background: radial-gradient(80% 80% at 0% 100%, #1f3bff 0%, #00133a 100%);
-  color: #fff;
   display: flex;
-  align-items: flex-end;
-  padding: clamp(10px, 1.4vw, 14px);
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center device image */
+.g-hero__device {
+  max-height: 92%;
+  max-width: 92%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(3, 7, 18, 0.15));
   z-index: 1;
-  left: clamp(12px, 6vw, 60px);
-  top: clamp(24px, 9vw, 70px);
-  width: clamp(160px, 28vw, 360px);
-  height: clamp(110px, 18vw, 210px);
-  border-radius: 26px;
-}
-.g-hero__eyebrow {
-  font-size: clamp(10px, 1vw, 12px);
-  opacity: 0.8;
-  display: block;
-}
-.g-hero__tile-title {
-  margin: 4px 0 0;
-  font-weight: 700;
-  line-height: 1.1;
-  font-size: clamp(14px, 1.6vw, 18px);
+  pointer-events: none;
+  user-select: none;
 }
 
-.g-hero__tile--right {
-  background: #fff;
-  padding: 0;
-  overflow: hidden;
-  z-index: 1;
-  right: clamp(12px, 5.5vw, 56px);
-  bottom: clamp(18px, 8vw, 56px);
-  width: clamp(130px, 20vw, 260px);
-  height: clamp(80px, 13vw, 160px);
-  border-radius: 22px;
-  overflow: hidden;
-}
-
-.g-hero__tile-photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Optional date pill */
+/* Date pill */
 .g-hero__pill {
   position: absolute;
   right: clamp(8px, 3.5vw, 24px);
@@ -136,40 +72,25 @@
   gap: 10px;
   padding: 10px 12px;
   box-shadow: var(--g-shadow);
+  z-index: 2;
 }
 .g-hero__pill-day {
-  display: block;
   font-size: 12px;
   color: #334155;
 }
 .g-hero__pill-num {
-  display: block;
   font-weight: 700;
   line-height: 0.9;
   font-size: 20px;
   color: #111827;
 }
 .g-hero__pill-label {
-  background: #1a73e8;
+  background: var(--g-primary);
   color: #fff;
   padding: 6px 10px;
   border-radius: 10px;
   font-size: 12px;
   font-weight: 600;
-}
-
-/* Optional chip */
-.g-hero__chip {
-  position: absolute;
-  right: clamp(10px, 3.5vw, 24px);
-  bottom: clamp(10px, 3.5vw, 24px);
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: none;
-  background: #fff;
-  box-shadow: var(--g-shadow);
-  cursor: pointer;
 }
 
 /* Copy block */
@@ -221,7 +142,8 @@
   transform: translateY(-1px);
 }
 .g-hero__btn--ghost {
-  color: #0b3a86;
+  background: var(--g-ghost);
+  color: #fff;
 }
 .g-hero__btn--ghost:hover {
   transform: translateY(-1px);
@@ -234,31 +156,6 @@
   }
   .g-hero__copy {
     padding-top: 22px;
-  }
-}
-
-/* Ensure no horizontal scroll from stage overflow on mobile */
-.g-hero,
-.g-hero * {
-  max-width: 100%;
-}
-/* MOBILE REFINEMENT: shrink device more and re-center */
-@media (max-width: 720px) {
-  .g-hero__device {
-    height: clamp(150px, 36vw, 240px);
-    transform: translate(-50%, -50%); /* center again on small screens */
-  }
-  .g-hero__tile--left {
-    left: 12px;
-    top: 18px;
-    width: clamp(150px, 70vw, 300px);
-    height: clamp(90px, 34vw, 160px);
-  }
-  .g-hero__tile--right {
-    right: 12px;
-    bottom: 16px;
-    width: clamp(130px, 48vw, 240px);
-    height: clamp(80px, 26vw, 140px);
   }
 }
 .md-typeset a {
