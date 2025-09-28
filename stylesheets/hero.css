@@ -51,7 +51,7 @@
   overflow: hidden;
   background: linear-gradient(180deg, #ffffff, #f1f4fa);
   border-radius: 28px;
-  min-height: clamp(280px, 42vw, 420px); /* ↑ give headroom */
+  min-height: clamp(382px, 44vw, 520px);
 }
 
 /* Center device */
