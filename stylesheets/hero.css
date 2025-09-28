@@ -49,9 +49,9 @@
 .g-hero__stage {
   position: relative;
   overflow: hidden;
-  border-radius: calc(var(--g-radius) + 12px);
   background: linear-gradient(180deg, #ffffff, #f1f4fa);
-  min-height: clamp(220px, 40vw, 420px);
+  border-radius: 28px;
+  min-height: clamp(280px, 42vw, 420px); /* ↑ give headroom */
 }
 
 /* Center device */
@@ -59,8 +59,13 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  height: clamp(160px, 32vw, 380px);
-  transform: translate(-50%, -50%);
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  height: clamp(160px, 26vw, 300px);
+  transform: translate(-54%, -50%); /* nudges more left */
   filter: drop-shadow(0 8px 18px rgba(3, 7, 18, 0.15));
   pointer-events: none;
   user-select: none;
@@ -75,13 +80,17 @@
   box-shadow: var(--g-shadow);
 }
 .g-hero__tile--left {
-  left: clamp(10px, 6vw, 48px);
-  top: clamp(18px, 8vw, 56px);
   background: radial-gradient(80% 80% at 0% 100%, #1f3bff 0%, #00133a 100%);
   color: #fff;
   display: flex;
   align-items: flex-end;
   padding: clamp(10px, 1.4vw, 14px);
+  z-index: 1;
+  left: clamp(12px, 6vw, 60px);
+  top: clamp(24px, 9vw, 70px);
+  width: clamp(160px, 28vw, 360px);
+  height: clamp(110px, 18vw, 210px);
+  border-radius: 26px;
 }
 .g-hero__eyebrow {
   font-size: clamp(10px, 1vw, 12px);
@@ -96,24 +105,28 @@
 }
 
 .g-hero__tile--right {
-  right: clamp(10px, 5vw, 44px);
-  bottom: clamp(14px, 7vw, 44px);
   background: #fff;
   padding: 0;
   overflow: hidden;
+  z-index: 1;
+  right: clamp(12px, 5.5vw, 56px);
+  bottom: clamp(18px, 8vw, 56px);
+  width: clamp(130px, 20vw, 260px);
+  height: clamp(80px, 13vw, 160px);
+  border-radius: 22px;
+  overflow: hidden;
 }
+
 .g-hero__tile-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  border-radius: 22px;
 }
 
 /* Optional date pill */
 .g-hero__pill {
   position: absolute;
-  right: clamp(6px, 3vw, 24px);
+  right: clamp(8px, 3.5vw, 24px);
   top: clamp(10px, 3vw, 24px);
   background: #e8efff;
   border-radius: 16px;
@@ -148,8 +161,8 @@
 /* Optional chip */
 .g-hero__chip {
   position: absolute;
-  right: clamp(8px, 3vw, 24px);
-  bottom: clamp(8px, 3vw, 24px);
+  right: clamp(10px, 3.5vw, 24px);
+  bottom: clamp(10px, 3.5vw, 24px);
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -208,7 +221,6 @@
   transform: translateY(-1px);
 }
 .g-hero__btn--ghost {
-  background: var(--g-ghost);
   color: #0b3a86;
 }
 .g-hero__btn--ghost:hover {
@@ -229,4 +241,29 @@
 .g-hero,
 .g-hero * {
   max-width: 100%;
+}
+/* MOBILE REFINEMENT: shrink device more and re-center */
+@media (max-width: 720px) {
+  .g-hero__device {
+    height: clamp(150px, 36vw, 240px);
+    transform: translate(-50%, -50%); /* center again on small screens */
+  }
+  .g-hero__tile--left {
+    left: 12px;
+    top: 18px;
+    width: clamp(150px, 70vw, 300px);
+    height: clamp(90px, 34vw, 160px);
+  }
+  .g-hero__tile--right {
+    right: 12px;
+    bottom: 16px;
+    width: clamp(130px, 48vw, 240px);
+    height: clamp(80px, 26vw, 140px);
+  }
+}
+.md-typeset a {
+  color: #fff !important;
+}
+.g-hero__btn--ghost {
+  background: #757575 !important;
 }
