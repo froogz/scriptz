@@ -38,7 +38,7 @@
 .g-hero__stage {
   position: relative;
 
-  background: linear-gradient(180deg, #ffffff, #f1f4fa);
+  background: linear-gradient(180deg, #f1f4fa);
   border-radius: 28px;
   min-height: clamp(382px, 44vw, 520px);
   display: flex;
@@ -48,23 +48,18 @@
 
 /* Center device image */
 .g-hero__device {
-  max-height: 92%;
-  max-width: 92%;
-  height: auto;
-  width: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 8px 18px rgba(3, 7, 18, 0.15));
-  z-index: 1;
-  pointer-events: none;
-  user-select: none;
-  border-radius: 28px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures no white gaps */
+  border-radius: 20px; /* keeps rounded corners aligned */
+  display: block;
 }
 
 /* Date pill */
 .g-hero__pill {
   position: absolute;
-  right: clamp(8px, 3.5vw, 24px);
-  top: clamp(10px, 7vw, 24px);
+  top: clamp(8px, 2vw, 18px);
+  right: clamp(8px, 2vw, 18px);
   background: #e8efff;
   border-radius: 16px;
   display: grid;
