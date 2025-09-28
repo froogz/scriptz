@@ -294,9 +294,9 @@ body {
 /* GLOBAL FIX FOR HORIZONTAL SCROLL ON MOBILE */
 html,
 body {
-  overflow-x: hidden; /* Stops horizontal scrolling on the main viewports */
+  overflow-x: hidden;
 }
-/* Ensure no element can exceed the viewport width */
+
 * {
   max-width: 100vw;
 }
