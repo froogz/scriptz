@@ -22,8 +22,8 @@ body {
 }
 
 .md-typeset {
-  font-size: 0.9rem;
-  line-height: 1.3;
+  line-height: 1.3 !important;
+  font-size: 0.9rem !important;
 }
 
 /* AGGRESSIVE FIX FOR BLOTCHY BOLD TEXT */
