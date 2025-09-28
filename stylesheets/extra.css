@@ -290,3 +290,7 @@ body {
 .md-typeset {
   line-height: 1.3 !important;
 }
+/* Target the main MkDocs content area */
+.md-container {
+  overflow-x: hidden;
+}
