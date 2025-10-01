@@ -1,5 +1,8 @@
 ---
-title: Midnight Manuscripts — We bring back what was forgotten.
+hide:
+  - toc
+
+title: Froogz — We bring back what was forgotten.
 description: Unearth the secret knowledge they don't want you to find.
 keywords:
   - Book of Enoch
@@ -11,15 +14,59 @@ keywords:
   - Dead Sea Scrolls
 ---
 
-# **Unveiling The Forgotten**
+<section class="g-hero">
+  <div class="g-hero__canvas">
+    <div class="g-hero__stage">
 
-For centuries, entire books were erased from the story of faith and history. Cast out, hidden in vaults, whispered about in fragments. But shadows don’t silence words forever. They wait.
+      <!-- Center device -->
+      <img class="g-hero__device" src="assets/Books.jpg" alt="Featured">
+      <!-- Optional date pill -->
+      <div class="g-hero__pill" aria-label="Date">
+        <div class="g-hero__pill-date">
+          <span class="g-hero__pill-day">Sept</span>
+          <span class="g-hero__pill-num">03</span>
+        </div>
+        <span class="g-hero__pill-label">Released</span>
+      </div>
 
-## **Why These Books Matter Today**
+      <!-- Optional round chip (icon placeholder) -->
 
-Prophecies about fallen angels and giants sound distant — until you notice the echoes in today’s world. Knowledge racing faster than wisdom. Power unrestrained. Questions about justice, endings, and beginnings that still linger in every age.
+    </div>
 
-Reading the forbidden isn’t about curiosity alone. It’s about rediscovering the conversations our ancestors once had — and realizing why those voices were silenced.
+  </div>
+
+  <div class="g-hero__copy">
+    <p class="g-hero__kicker">Rediscover the forbidden</p>
+    <h1 class="g-hero__title">Unveiling The Forgotten</h1>
+    <p class="g-hero__subtitle">
+      For centuries, entire books were erased from the story of faith and history. Hidden in vaults, dismissed as dangerous, and whispered about in fragments, these texts were nearly lost. But shadows don’t silence words forever — they wait to be rediscovered.
+    </p>
+    <div class="g-hero__actions">
+      <a class="g-hero__btn g-hero__btn--primary" href="https://payhip.com/b/GlBx7">Get the Enoch Edition</a>
+      <a class="g-hero__btn g-hero__btn--ghost" href="https://midnightmanuscripts.store/preview/GlBx7">Read a preview</a>
+    </div>
+  </div>
+</section>
+
+### Why It Matters
+
+The Book of Enoch is one of the most talked-about forbidden scriptures. Readers ask:
+
+### Why was the Book of Enoch removed from the Bible?
+
+It was excluded from the biblical canon by early church leaders who feared its visions of angels, giants, and divine judgment challenged established doctrine.
+
+### Why is the Book of Enoch banned or forbidden?
+
+For over 1,000 years it was hidden because of its apocalyptic prophecies, its stories of fallen angels, and its unsettling secrets about the end of days.
+
+### What is the big deal about the Book of Enoch?
+
+It gives a vivid vision of heaven, cosmic battles, and moral warnings that echo issues still relevant today: unrestrained power, corrupted justice, and the search for truth.
+
+### Should I trust the Book of Enoch?
+
+For historians and seekers, it is a window into ancient thought, not a replacement for scripture. It reveals how early believers struggled with questions of justice, creation, and divine mystery.
 
 <section class="books-grid" aria-label="Books">
   <a class="book-card" href="thebookofenoch/">
@@ -40,16 +87,22 @@ Reading the forbidden isn’t about curiosity alone. It’s about rediscovering 
 
 !!! info "Did You Know?"
 
-    :fontawesome-solid-book: The Book of Enoch was quoted by New Testament authors but later banned for over 1,000 years.
+    :fontawesome-solid-book: Who Wrote the Book of Enoch?
 
-    :fontawesome-solid-book: Surveys show 65% of readers explore apocryphal texts out of curiosity, even if they don’t identify with a religion.
+    Tradition says it was written by Enoch, the great-grandfather of Noah. Scholars believe it was composed between 300 BCE and 100 CE, a collection of apocalyptic visions passed down through generations.
 
-    :fontawesome-solid-book: The Apocrypha was once standard in many Bibles and still survives in Eastern and Orthodox traditions today.
+    :fontawesome-solid-book: Is the Book of Enoch true?
+
+    Historically, it is a preserved record of ancient beliefs and prophecies. Spiritually, its truth depends on the seeker’s path.
+
+    :fontawesome-solid-book: Who removed it from the Bible?
+
+    Early church councils and leaders, who chose to preserve a narrower canon, left it out.
 
 These aren’t just lost pages. They are crossroads — between faith and myth, history and speculation, the known and the hidden.
 
 ## **Step Into the Vision**
 
-At Midnight Manuscripts, we bring back what was forgotten: apocalyptic visions, forbidden scriptures, and stories too dangerous to stay buried.
+At froogz, we bring back what was forgotten: apocalyptic visions, forbidden scriptures, and stories too dangerous to stay buried.
 
 Start your journey with **The Book of Enoch: An Apocalyptic Vision**. Then continue into The **Apocrypha Anthology**. More revelations are coming. The shadows aren’t empty — they’re full of voices waiting to be heard.

@@ -1,0 +1,162 @@
+/* ===== Simplified Google-style hero (Froogz) ===== */
+
+:root {
+  --g-maxw: 1120px;
+  --g-radius: 20px;
+  --g-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+
+  /* Fluid type */
+  --g-kicker: clamp(12px, 1.2vw, 14px);
+  --g-title: clamp(28px, 4.4vw, 50px);
+  --g-sub: clamp(15px, 1.6vw, 20px);
+  --g-btn: clamp(14px, 1.4vw, 16px);
+
+  /* Palette */
+  --g-bg: #ffffff;
+  --g-card: #f5f7fb;
+  --g-text: #0f172a;
+  --g-muted: #475569;
+  --g-primary: #1a73e8;
+  --g-primary-ink: #fff;
+  --g-ghost: #757575; /* updated ghost button background */
+}
+
+/* Container */
+.g-hero {
+  margin: 24px auto 40px;
+  max-width: var(--g-maxw);
+  padding: 0 16px;
+}
+.g-hero__canvas {
+  border-radius: var(--g-radius);
+  background: var(--g-card);
+  box-shadow: var(--g-shadow);
+  padding: clamp(12px, 2vw, 20px);
+}
+
+/* Stage */
+.g-hero__stage {
+  position: relative;
+
+  background: linear-gradient(180deg, #f1f4fa);
+  border-radius: 28px;
+  min-height: clamp(382px, 44vw, 520px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center device image */
+.g-hero__device {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures no white gaps */
+  border-radius: 20px; /* keeps rounded corners aligned */
+  display: block;
+}
+
+/* Date pill */
+.g-hero__pill {
+  position: absolute;
+  top: clamp(8px, 2vw, 18px);
+  right: clamp(8px, 2vw, 18px);
+  background: #e8efff;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  box-shadow: var(--g-shadow);
+  z-index: 2;
+}
+.g-hero__pill-day {
+  font-size: 12px;
+  color: #334155;
+}
+.g-hero__pill-num {
+  font-weight: 700;
+  line-height: 0.9;
+  font-size: 20px;
+  color: #111827;
+}
+.g-hero__pill-label {
+  background: var(--g-primary);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Copy block */
+.g-hero__copy {
+  text-align: center;
+  padding: 18px 8px 0;
+}
+.g-hero__kicker {
+  margin: 18px 0 4px;
+  font-size: var(--g-kicker);
+  color: var(--g-muted);
+}
+.g-hero__title {
+  margin: 0 0 6px;
+  font-size: var(--g-title);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--g-text);
+}
+.g-hero__subtitle {
+  margin: 6px auto 16px;
+  font-size: var(--g-sub);
+  color: var(--g-muted);
+  max-width: 64ch;
+}
+.g-hero__actions {
+  display: inline-flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.g-hero__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: var(--g-btn);
+  text-decoration: none;
+  transition: transform 0.08s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.g-hero__btn--primary {
+  background: var(--g-primary);
+  color: var(--g-primary-ink);
+  box-shadow: 0 6px 14px rgba(26, 115, 232, 0.25);
+}
+.g-hero__btn--primary:hover {
+  transform: translateY(-1px);
+}
+.g-hero__btn--ghost {
+  background: var(--g-ghost);
+  color: #fff;
+}
+.g-hero__btn--ghost:hover {
+  transform: translateY(-1px);
+}
+
+/* Wide screens */
+@media (min-width: 1000px) {
+  .g-hero {
+    margin-top: 32px;
+  }
+  .g-hero__copy {
+    padding-top: 22px;
+  }
+}
+.md-typeset a {
+  color: #fff !important;
+}
+.g-hero__btn--ghost {
+  background: #757575 !important;
+}

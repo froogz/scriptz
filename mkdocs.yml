@@ -1,42 +1,45 @@
-site_name: Midnight Manuscripts
-site_url: https://midnightcodexstudio.github.io/midnightmanuscripts/
+site_name: Froogz
+site_url: https://froogz.github.io/scriptz/
 site_author: D.K Asher
 site_description: "Unearth the secret knowledge they don't want you to find."
+site_dir: site
+use_directory_urls: true
 
-repo_name: midnightcodexstudio/midnightmanuscripts
-repo_url: https://github.com/midnightcodexstudio/midnightmanuscripts
+repo_name: froogz/scriptz
+repo_url: https://github.com/froogz/scriptz
 
-copyright: "Copyright © 2025 Midnight Codex Studio. All rights reserved."
+copyright: "Copyright © 2025 Froogz Studio. All rights reserved."
 
+# ── Theme (unchanged look & scheme) ────────────────────────────────────────────
 theme:
   name: material
+  custom_dir: overrides
   palette:
-    scheme: midnightcodex
+    scheme: froogz
     primary: "white"
     accent: "white"
   icon:
     logo: fontawesome/solid/book
   favicon: assets/favicon.png
-  font:
-    text: Poppins
-    code: Roboto
+
   features:
-    - content.git_authors
+    - content.git_authors # (kept as you had it)
+
+# ── Site extras (SEO, social, analytics, consent) ─────────────────────────────
 
 extra:
-  # removes the "Made with Material for MkDocs" footer notice
   generator: false
-  # adds your Google Search Console verification tag
   meta:
     - name: google-site-verification
       content: q_BKRKKu1Wyyan_YGpDPx9_Hh52d48S2tnoaCy6MFXs
-  # header social icons
+
+  # Header social icons (fill real links when ready)
   social:
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/midnightcodexstudio
     - icon: fontawesome/brands/github
-      link: https://github.com/midnightcodexstudio
-    - icon: fontawesome/brands/bluesky
+      link: https://github.com/froogz
+    - icon: simple/bluesky
       link: https://bsky.app/profile/your-profile-name
     - icon: fontawesome/brands/paypal
       link: https://paypal.me/your-paypal-id
@@ -46,10 +49,12 @@ extra:
       link: https://www.amazon.com/your-books-page
     - icon: fontawesome/solid/bag-shopping
       link: https://payhip.com/midnightmanuscripts
-  consent: # Start of Cookies & Reaction Emoji
+
+  consent:
     title: Cookie consent
     description: >-
       We use cookies to understand how you use the site and to improve it. With your consent, you're helping us make Midnight Manuscripts better.
+
   analytics:
     provider: google
     property: G-8C091YBKCV
@@ -66,17 +71,21 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Tell us what’s missing via
-            <a href="https://github.com/midnightcodexstudio/midnightmanuscripts/issues/new?title=[Feedback]+{title}+–+{url}" target="_blank" rel="noopener">GitHub issues</a>.
+            <a href="https://github.com/froogz/scriptz/issues/new?title=[Feedback]+{title}+–+{url}" target="_blank" rel="noopener">GitHub issues</a>.
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/hero.css
 
 extra_javascript:
   - javascripts/feedback.js
   - https://payhip.com/payhip.js
 
+# ── Plugins (all safe; sitemap improves SEO) ───────────────────────────────────
 plugins:
-  - search
+  - search:
+      enabled: false
+      lang: en
   - minify:
       minify_html: true
       minify_css: true
@@ -84,30 +93,45 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       locale: en
+      enable_creation_date: true
   - social:
       cards: true
       cards_layout_options:
-        font_family: Poppins
+        font_family: Roboto
         background_color: "#ffffff"
         color: "#000000"
         logo: fontawesome/solid/book
         title: "Reading the forbidden isn’t about curiosity alone."
         description: "Unearth the secret knowledge they don't want you to find."
-  - git-authors
 
+# ── Markdown power-ups (rich content, emojis, tabs, footnotes, etc.) ──────────
 markdown_extensions:
+  - meta
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - attr_list
   - md_in_html
+  - footnotes
+  - abbr
+  - def_list
+  - toc:
+      permalink: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.magiclink
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - fontawesome
+          - Octicons
 
+# ── Navigation ────────────────────────────────────────────────────────────────
 nav:
   - We bring back what was forgotten: index.md
   - The Book Of Enoch: thebookofenoch.md

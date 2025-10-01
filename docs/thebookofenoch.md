@@ -37,11 +37,17 @@ This isn’t a neat tale. It’s unsettling. It’s alive. And once you open its
 
 !!! info "Did You Know?"
 
-    :fontawesome-solid-book: The Book of Enoch was quoted by New Testament authors but later banned for over 1,000 years.
+    :fontawesome-solid-book: Why was the Book of Enoch removed from the Bible?
+    It was excluded by early church councils due to its radical visions.
 
-    :fontawesome-solid-book: Surveys show 65% of readers explore apocryphal texts out of curiosity, even if they don’t identify with a religion.
+    :fontawesome-solid-book: Is the Book of Enoch forbidden?
+    Yes, for centuries it was suppressed — yet it survived in Ethiopia and fragments in the Dead Sea Scrolls.
 
-    :fontawesome-solid-book: The Apocrypha was once standard in many Bibles and still survives in Eastern and Orthodox traditions today.
+    :fontawesome-solid-book: Did Jesus mention the Book of Enoch?
+    Not directly, but his followers quoted it.
+
+    :fontawesome-solid-book: Is it safe to read the Book of Enoch?
+    It is not “dangerous,” but it is challenging. Reading it is about discovery, not doctrine.
 
 !!! quote "Testimonials"
 
@@ -49,7 +55,7 @@ This isn’t a neat tale. It’s unsettling. It’s alive. And once you open its
 
     — Alex M., 29
 
-    I’ve read a lot of apocryphal texts, but nothing written like this. It’s cinematic, it’s unsettling, and it’s alive. The calendar section alone made me question everything I thought I knew. Midnight Manuscripts is onto something.
+    I’ve read a lot of apocryphal texts, but nothing written like this. It’s cinematic, it’s unsettling, and it’s alive. The calendar section alone made me question everything I thought I knew. froogz is onto something.
 
     — Rachel T., 34
 
@@ -81,5 +87,19 @@ This isn’t a neat tale. It’s unsettling. It’s alive. And once you open its
     :fontawesome-solid-book: The Book of Enoch offers a detailed account of the Nephilim—the mysterious giants mentioned in Genesis 6. It’s one of the only ancient texts that fully explains the story of these beings, providing a rich narrative that fills in the brief biblical mention.
 
     :fontawesome-solid-book: For scholars and historians, the Book of Enoch is a critical piece of evidence for understanding the development of both Judaism and Christianity. It's considered one of the earliest examples of apocalyptic literature and a valuable resource for tracing the evolution of religious thought.
+
+# Faith, Mystery, and the Voices of the Silenced
+
+Some warn: “Why stay away from the Book of Enoch?” or “Why do people say not to read it?”
+
+The truth is that the Book of Enoch challenges, provokes, and raises uncomfortable questions. That is exactly why it survived in fragments, quoted even in the New Testament.
+
+**What did Jesus say about the Book of Enoch?**
+
+While Jesus never directly mentions it, New Testament writers like Jude and Peter reference its themes.
+
+**Do Christians accept the Book of Enoch?**
+
+Most mainstream denominations do not, but it remains part of the canon in the Ethiopian Orthodox Church.
 
 You will get a PDF (5.5MB) optimized file. Other formats will be availabe soon.

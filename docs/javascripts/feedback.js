@@ -1,31 +1,39 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var feedback = document.forms.feedback;
-  if (!feedback) return;
+// docs/javascripts/feedback.js
+(function () {
+  function wrap() {
+    if (typeof window.gtag !== "function") return false;
 
-  feedback.hidden = false;
+    const orig = window.gtag;
+    window.gtag = function () {
+      const args = Array.from(arguments);
 
-  // Use a simple click listener on the buttons to get the data
-  var buttons = feedback.querySelectorAll("[data-md-value]");
-  buttons.forEach(function (button) {
-    button.addEventListener("click", function (ev) {
-      ev.preventDefault();
-
-      var page = document.location.pathname;
-      var data = button.getAttribute("data-md-value");
-
-      console.log(page, data);
-
-      // Disable all buttons in the form to prevent double-submits
-      buttons.forEach(function (btn) {
-        btn.disabled = true;
-      });
-
-      var note = feedback.querySelector(
-        ".md-feedback__note [data-md-value='" + data + "']"
-      );
-      if (note) {
-        note.hidden = false;
+      // Augment ONLY the Material "feedback" event
+      if (
+        args[0] === "event" &&
+        args[1] === "feedback" &&
+        args[2] &&
+        typeof args[2].data !== "undefined"
+      ) {
+        const rating = args[2].data; // 1 = 👍, 0 = 👎
+        args[2].rating = rating; // alias param for dimension
+        args[2].label = rating ? "Helpful" : "Could be improved"; // human-friendly
       }
-    });
-  });
-});
+
+      return orig.apply(this, args);
+    };
+
+    // Make this tab visible in DebugView
+    try {
+      window.gtag("set", "debug_mode", true);
+    } catch (e) {}
+    return true;
+  }
+
+  // Wait for GA to initialize, then wrap once
+  if (!wrap()) {
+    const id = setInterval(() => {
+      if (wrap()) clearInterval(id);
+    }, 300);
+    setTimeout(() => clearInterval(id), 10000); // stop trying after 10s
+  }
+})();
