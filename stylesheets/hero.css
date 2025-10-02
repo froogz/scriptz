@@ -89,6 +89,13 @@
   font-weight: 600;
 }
 
+/* Mobile refinement: lower the pill */
+@media (max-width: 720px) {
+  .g-hero__pill {
+    top: clamp(28px, 8vw, 40px); /* lower than desktop */
+  }
+}
+
 /* Copy block */
 .g-hero__copy {
   text-align: center;
