@@ -38,7 +38,6 @@
 .g-hero__stage {
   position: relative;
 
-  background: linear-gradient(180deg, #f1f4fa);
   border-radius: 28px;
   min-height: clamp(382px, 44vw, 520px);
   display: flex;
