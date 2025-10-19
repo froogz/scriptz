@@ -24,6 +24,8 @@ theme:
 
   features:
     - content.git_authors # (kept as you had it)
+    - navigation.instant
+    - navigation.prefetch
 
 # ── Site extras (SEO, social, analytics, consent) ─────────────────────────────
 

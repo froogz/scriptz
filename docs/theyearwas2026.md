@@ -7,7 +7,7 @@ hide:
   <div class="g-hero__canvas">
     <div class="g-hero__stage">
 
-      <img class="g-hero__device" src="../assets/2026.jpg" alt="The Year Was 2026 cover" loading="lazy">
+      <img class="g-hero__device" src="../assets/2026_Covers.webp" alt="The Year Was 2026 cover" loading="lazy">
       <div class="g-hero__pill" aria-label="Date">
         <div class="g-hero__pill-date">
           <span class="g-hero__pill-day">Oct</span>
@@ -15,8 +15,7 @@ hide:
         </div>
         <span class="g-hero__pill-label">Released</span>
       </div>
-
-      </div>
+    </div>
 
   </div>
 
@@ -25,16 +24,19 @@ hide:
     <h1 class="g-hero__title">The Year Was 2026: A Prophecy and Predictions</h1>
     <p class="g-hero__subtitle">
       For centuries, the world’s most famous seers—from Nostradamus to Baba Vanga—delivered veiled warnings about the near future. Now, the chilling convergence of their prophecies points to a single, critical year. Stop searching. Start preparing.
-
-      The future is not a mystery—it is a convergence. After unlocking the ancient visions of Enoch, you are ready to see where the path leads: a single, critical year.
     </p>
     <div class="g-hero__actions">
       <a class="g-hero__btn g-hero__btn--primary" href="https://payhip.com/b/gyokn">Uncover the Predictions Now</a>
-      <a class="g-hero__btn g-hero__btn--ghost" href="https://payhip.com/b/gyokn">Get Instant Access</a>
-    </div>
-
+      <a class="g-hero__btn g-hero__btn--ghost" href="[PREVIEW_LINK_2026]">Read a Preview</a>
+      </div>
   </div>
 </section>
+
+---
+
+# The Essential Handbook for the Immediate Future
+
+The future is not a mystery—it is a convergence. After unlocking the ancient visions of Enoch, you are ready to see where the path leads: a single, critical year.
 
 **The Year Was 2026** is the essential handbook for the immediate future. It cuts through sensationalism to deliver the core warnings from the most famous prophets, all aligning on the same critical time horizon. The future is no longer vague; it is approaching fast.
 
@@ -69,7 +71,7 @@ This is the book for those who feel the unease and want to be ready for what's c
 
     — Tina V., 29
 
-  <section class="book-hero" aria-label="The Year Was 2026: A Prophecy and Predictions">
+<section class="book-hero" aria-label="The Year Was 2026: A Prophecy and Predictions">
   <figure class="thumb">
     <img src="../assets/2026.jpg" alt="The Year Was 2026 cover" loading="lazy">
   </figure>
@@ -93,4 +95,4 @@ This is the book for those who feel the unease and want to be ready for what's c
 
     :fontawesome-solid-hands-holding-heart: **Spiritual Clarity:** Prophecy often serves as a map. Reading these texts provides context for current events, easing confusion and replacing fear with understanding.
 
-You will get a PDF (5.5MB) optimized file. Other formats will be available soon.
+**File Information:** You will get a PDF (5.5MB) optimized file. Other formats will be available soon.
