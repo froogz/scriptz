@@ -38,7 +38,6 @@
 .g-hero__stage {
   position: relative;
 
-  background: linear-gradient(180deg, #f1f4fa);
   border-radius: 28px;
   min-height: clamp(382px, 44vw, 520px);
   display: flex;
@@ -87,6 +86,13 @@
   border-radius: 10px;
   font-size: 12px;
   font-weight: 600;
+}
+
+/* Mobile refinement: lower the pill */
+@media (max-width: 720px) {
+  .g-hero__pill {
+    top: clamp(28px, 8vw, 40px); /* lower than desktop */
+  }
 }
 
 /* Copy block */

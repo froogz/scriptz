@@ -68,20 +68,29 @@ It gives a vivid vision of heaven, cosmic battles, and moral warnings that echo 
 
 For historians and seekers, it is a window into ancient thought, not a replacement for scripture. It reveals how early believers struggled with questions of justice, creation, and divine mystery.
 
+<section class="g-hero">
+  <div class="g-hero__canvas">
+    <div class="g-hero__stage">
+
 <section class="books-grid" aria-label="Books">
+
   <a class="book-card" href="thebookofenoch/">
     <figure class="thumb">
-      <img src="assets/Cover.webp" alt="The Book of Enoch">
+      <img src="assets/Cover.webp" alt="The Book of Enoch" loading="lazy">
     </figure>
     <h3 class="book-title">The Book of Enoch</h3>
     <p class="book-desc">Step into the vision. Uncover what was lost. The end was always written.</p>
   </a>
 
-<article class="book-card soon" aria-disabled="true">
-  <figure class="thumb" aria-hidden="true"></figure>
-  <h3 class="book-title">The Apocrypha Anthology</h3>
-  <p class="book-desc">Coming soon — hidden books, contested histories, and echoes between canons.</p>
-</article>
+  <a class="book-card" href="theyearwas2026/">
+    <figure class="thumb">
+      <img src="assets/2026.jpg" alt="The Year Was 2026" loading="lazy">
+    </figure>
+    <h3 class="book-title">The Year Was 2026</h3>
+    <p class="book-desc">The chilling convergence of prophecies from sources across time, all pointing to a single year.</p>
+  </a>
+
+</section>
 
 </section>
 
@@ -103,6 +112,13 @@ These aren’t just lost pages. They are crossroads — between faith and myth, 
 
 ## **Step Into the Vision**
 
-At froogz, we bring back what was forgotten: apocalyptic visions, forbidden scriptures, and stories too dangerous to stay buried.
+**The Official Froogz Mission:**
+At Froogz, we bring back what was forgotten: apocalyptic visions, forbidden scriptures, and stories too dangerous to stay buried. We believe the deepest truths of the future are hidden in the knowledge of the past.
 
-Start your journey with **The Book of Enoch: An Apocalyptic Vision**. Then continue into The **Apocrypha Anthology**. More revelations are coming. The shadows aren’t empty — they’re full of voices waiting to be heard.
+**Start Your Journey of Forbidden Knowledge:**
+Start your journey by witnessing the origin story of prophecy itself with **The Book of Enoch: An Apocalyptic Vision**. Uncover the secrets of the Watchers, the Nephilim, and the Flood—the biblical history they tried to erase.
+
+**Then, See the Prophecy Fulfilled:**
+Continue into the immediate future with **The Year Was 2026: A Prophecy & Predictions**. This is not guesswork. This is the chilling convergence of prophecies from sources removed by thousands of miles and centuries of time—from Nostradamus to Baba Vanga—all pointing to the same critical year.
+
+Don't just read history. Prepare for it.
