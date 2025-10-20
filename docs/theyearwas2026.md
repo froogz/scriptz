@@ -13,86 +13,88 @@ hide:
           <span class="g-hero__pill-day">Oct</span>
           <span class="g-hero__pill-num">19</span>
         </div>
-        <span class="g-hero__pill-label">Released</span>
+        <span class="g-hero__pill-label">Release Date</span>
       </div>
     </div>
 
   </div>
 
   <div class="g-hero__copy">
-    <p class="g-hero__kicker">The critical date is set</p>
+    <p class="g-hero__kicker">The Time Is Running Out</p>
     <h1 class="g-hero__title">The Year Was 2026: A Prophecy and Predictions</h1>
     <p class="g-hero__subtitle">
-      For centuries, the world’s most famous seers—from Nostradamus to Baba Vanga—delivered veiled warnings about the near future. Now, the chilling convergence of their prophecies points to a single, critical year. Stop searching. Start preparing.
-    </p>
+      For centuries, the world’s most famous seers—from <strong>Nostradamus</strong> to <strong>Baba Vanga</strong>—delivered veiled warnings about the near future. Now, the chilling data reveals the <strong>critical year</strong>. Stop searching for answers. <strong>Start preparing.</strong>
+</p>
     <div class="g-hero__actions">
-      <a class="g-hero__btn g-hero__btn--primary" href="https://payhip.com/b/gyokn">Uncover the Predictions Now</a>
-      <a class="g-hero__btn g-hero__btn--ghost" href="[PREVIEW_LINK_2026]">Read a Preview</a>
+      <a class="g-hero__btn g-hero__btn--primary" href="https://payhip.com/b/gyokn">Get It Now</a>
+      <a class="g-hero__btn g-hero__btn--ghost" href="https://payhip.com/b/gyokn">Instant Download</a>
       </div>
   </div>
 </section>
 
 ---
 
-# The Essential Handbook for the Immediate Future
+## The Essential Handbook for the Immediate Future
 
-The future is not a mystery—it is a convergence. After unlocking the ancient visions of Enoch, you are ready to see where the path leads: a single, critical year.
+The future isn't a vague fog of "maybe"—it's a **countdown clock**. You've already got the key to ancient visions; now it's time to see the single, critical destination they all point toward.
 
-**The Year Was 2026** is the essential handbook for the immediate future. It cuts through sensationalism to deliver the core warnings from the most famous prophets, all aligning on the same critical time horizon. The future is no longer vague; it is approaching fast.
+**The Year Was 2026** is the non-negotiable handbook for the moment we're in. We cut through the noise and sensationalism to deliver the core, decoded warnings from history’s most renowned prophets, all mysteriously aligning on the same tight time horizon. The vague future? It's over. The **immediate future** is approaching **faster than you think**.
 
-**Inside, you’ll find the chilling alignment of predictions from:**
+**Inside this definitive guide, you’ll find the unsettling alignment of predictions from:**
 
-- **Nostradamus:** Decoded quatrains revealing a major global power shift and the "Great Fire" cycle.
-- **Baba Vanga:** Her darkest predictions concerning climate, ecological disaster, and the fate of the West.
-- **Edgar Cayce:** The sleeping prophet's trance readings on the shifting axis and sudden geographical changes.
-- **The Children of Fátima:** The urgent, unheeded messages that speak directly to the political and spiritual state of the modern world.
+- **Nostradamus:** Quatrains decoded to reveal the exact timeframe for a major **Global Power Shift** and the terrifying "Great Fire" cycle.
+- **Baba Vanga:** Her darkest, most concrete predictions on the coming **Ecological Disaster** and the shocking fate that awaits the West.
+- **Edgar Cayce:** The "Sleeping Prophet’s" trance readings on the **Shifting Earth Axis** and sudden, dramatic geographical changes that are already starting.
+- **The Children of Fátima:** The urgent, spiritual warnings that were deliberately unheeded, now speaking directly to the **political and moral crisis** of our modern world.
 
-This is the book for those who feel the unease and want to be ready for what's coming. **Don't just witness the year 2026—be prepared for it.**
+This isn't just a book; it's a **field guide for the uncertain years ahead**. If you feel that collective global unease, this is your chance to turn it into **informed action**. **Don't just witness the year 2026—be ready to master it.**
 
-!!! info "The Convergence is Real"
+!!! info "The Convergence is Unmistakable"
 
-    :fontawesome-solid-timeline: **Why 2026?** Different prophecies using wildly different calendars (celestial, spiritual, political) unexpectedly align on this specific year, suggesting an external force driving global events.
+    **Why 2026?** This is the ultimate enigma: Major prophecies—using wildly different calendars (celestial, spiritual, political)—all unexpectedly *converge* on this one specific year. This isn't coincidence; it suggests an **external, undeniable force** driving global events.
 
-    :fontawesome-solid-users: **Who Are These Seers?** This collection focuses on famous and verified sources known for their unsettling accuracy: the mystic Nostradamus, the blind Bulgarian prophetess Baba Vanga, the trance-inducing Edgar Cayce, and the spiritual warnings of Fátima.
+    **Who Are These Seers?** We didn't choose fortune-tellers. This collection focuses exclusively on **famous, verified sources** known for their unsettling accuracy: the cryptic Nostradamus, the eerily accurate Baba Vanga, the trance-inducing Edgar Cayce, and the urgent spiritual warnings of Fátima.
 
-    :fontawesome-solid-book: **Are These Predictions Vague?** Absolutely not. We decode the abstract language of prophecy into concrete, geopolitical, and spiritual predictions so you can clearly understand the stakes.
-
-!!! quote "Testimonials"
-
-    I read this right after finishing Enoch, and it felt like the perfect bridge. The connections the author drew between these ancient and modern predictions for 2026 are genuinely chilling. It's not a comfortable read, but it is necessary.
-
-    — Sarah K., 38
-
-    The section on Baba Vanga’s environmental predictions made my stomach drop. This is the book you read when you want the unvarnished truth about the near future. It’s dense, well-researched, and pulls no punches. Highly recommend.
-
-    — Leo P., 45
-
-    I appreciated that the book didn't just scare you; it made you think critically about history and prophecy. It’s the ultimate guide for anyone who feels the world is on a new, urgent clock. froogz is my new source for forgotten truths.
-
-    — Tina V., 29
+    **Are These Just Vague Ideas?** We tossed the abstraction. We decode the poets' language into **concrete, geopolitical, and personal predictions**. You will finally see the clear, specific stakes.
 
 <section class="book-hero" aria-label="The Year Was 2026: A Prophecy and Predictions">
   <figure class="thumb">
-    <img src="../assets/2026.jpg" alt="The Year Was 2026 cover" loading="lazy">
+    <img src="../assets/2026.webp" alt="The Year Was 2026 cover" loading="lazy">
   </figure>
 
   <h1 class="book-title">The Year Was 2026: A Prophecy and Predictions</h1>
-  <p class="book-desc">The chilling convergence of prophecies from seers across time, all pointing to a single year.</p>
+  <p class="book-desc">The chilling convergence of prophecies from seers across time, all pointing to <strong>the same, single year</strong>.</p>
 
   <div class="buy-wrap">
     <a href="https://payhip.com/b/gyokn"
        class="payhip-buy-button"
        data-theme="blue"
-       data-product="gyokn">Get Instant Access</a>
+       data-product="gyokn">Download and Prepare</a>
   </div>
 </section>
 
-!!! info "Why This Matters"
+!!! info "Why Understanding 2026 is Vital"
 
-    :fontawesome-solid-map-location-dot: **Geopolitical Insights:** The prophetic alignment suggests a massive reshuffling of global alliances. Understanding these shifts is key to navigating the next few years.
+    **Geopolitical Insights:** The prophetic alignment isn't just a warning—it's a map to a massive reshuffling of global alliances. Understanding these key shifts is your competitive edge for navigating the next decade.
 
-    :fontawesome-solid-mountain-sun: **Personal Preparedness:** Knowing the potential impact of economic or environmental events allows you to make informed choices now, mitigating future risk.
+    **Personal Preparedness:** Knowing the potential impact of major economic or environmental resets empowers you to make **informed, tangible choices right now**, mitigating risk before it’s too late.
 
-    :fontawesome-solid-hands-holding-heart: **Spiritual Clarity:** Prophecy often serves as a map. Reading these texts provides context for current events, easing confusion and replacing fear with understanding.
+    **Spiritual Clarity:** Prophecy isn't meant to cause fear; it's a lifeline. Reading these decoded texts provides essential context for the chaos we see every day, replacing confusion and anxiety with genuine **understanding and peace**.
 
-**File Information:** You will get a PDF (5.5MB) optimized file. Other formats will be available soon.
+**File Information:** Your immediate download is a **PDF (5.5MB)** optimized for all devices. Other formats are coming soon, but the time to read this is **now**.
+
+---
+
+## **The Final Warning**
+
+The signs are everywhere—the financial tremors, the political friction, the shifts in the climate. These are not isolated incidents; they are the drumbeats leading to the inevitable crescendo. **2026 is not a theory. It is the date on the calendar.**
+
+You have the opportunity now to look behind the curtain, to see what the most accurate seers saw, and to **make your move before the world realizes the game has changed.**
+
+The truth is waiting. But for how much longer?
+
+**Don't let the coming year find you unprepared. The window is closing.**
+
+<div style="text-align: center;">
+  <a class="g-hero__btn g-hero__btn--primary" href="https://payhip.com/b/gyokn" style="margin-top: 20px;"><strong>Secure Your Copy Before Time Runs Out</strong></a>
+</div>
