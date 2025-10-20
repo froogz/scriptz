@@ -19,7 +19,7 @@ keywords:
     <div class="g-hero__stage">
 
       <!-- Center device -->
-      <img class="g-hero__device" src="assets/Books.jpg" alt="Featured">
+      <img class="g-hero__device" src="assets/Books.webp" alt="Featured">
       <!-- Optional date pill -->
       <div class="g-hero__pill" aria-label="Date">
         <div class="g-hero__pill-date">
@@ -84,7 +84,7 @@ For historians and seekers, it is a window into ancient thought, not a replaceme
 
   <a class="book-card" href="theyearwas2026/">
     <figure class="thumb">
-      <img src="assets/2026.jpg" alt="The Year Was 2026" loading="lazy">
+      <img src="assets/2026.webp" alt="The Year Was 2026" loading="lazy">
     </figure>
     <h3 class="book-title">The Year Was 2026</h3>
     <p class="book-desc">The chilling convergence of prophecies from sources across time, all pointing to a single year.</p>
